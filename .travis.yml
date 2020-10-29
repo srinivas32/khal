@@ -26,14 +26,19 @@ jobs:
         # added ppc64le arch.
       - python: 3.7
         env: BUILD=style
+        arch: ppc64le
       - python: 3.7
         env: BUILD=docs
+        arch: ppc64le
       - python: 3.7
         env: BUILD=mypy
+        arch: ppc64le
       - python: 3.7
         env: BUILD=pytz201610
+        arch: ppc64le
       - python: 3.7
         env: BUILD=pytz201702
+        arch: ppc64le
 addons:
     apt:
         packages:
